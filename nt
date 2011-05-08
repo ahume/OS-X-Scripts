@@ -1,0 +1,4 @@
+#!/bin/bash
+arch -i386 osascript <<END 
+tell app "Terminal" to do script "cd \"`pwd`\"" 
+END
